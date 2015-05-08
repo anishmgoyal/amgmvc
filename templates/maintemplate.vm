@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<head>
+<title>This is the title</title>
+</head>
+<body>
+#foreach($bodyItem in $viewData)
+	<h1>$!bodyItem.getTitle()</h1>
+	<p>$!bodyItem.getData()</p>
+#end
+The CSS File location is $!css/content.css.
+</body>
+</html>
