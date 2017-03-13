@@ -5,8 +5,8 @@ import java.util.Set;
 
 import com.amg.mvc.annotations.Secure;
 import com.amg.mvc.annotations.Wire;
+import com.amg.mvc.bean.service.Service;
 import com.amg.mvc.exception.AccessSecurityException;
-import com.amg.mvc.factory.service.Service;
 import com.amg.mvc.user.UserRoles;
 
 /**

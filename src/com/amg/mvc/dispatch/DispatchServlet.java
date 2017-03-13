@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.amg.mvc.bean.controller.Controller;
 import com.amg.mvc.context.ServletContextSessionManager;
-import com.amg.mvc.factory.controller.Controller;
 
 public class DispatchServlet extends HttpServlet {
 

@@ -3,8 +3,8 @@ package com.amg.mvc.query;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 
-import com.amg.mvc.factory.model.MetaData;
-import com.amg.mvc.factory.model.Model;
+import com.amg.mvc.bean.model.MetaData;
+import com.amg.mvc.bean.model.Model;
 
 public abstract class QueryBuilder {
 

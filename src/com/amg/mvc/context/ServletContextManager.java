@@ -4,11 +4,11 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
+import com.amg.mvc.bean.controller.Controller;
+import com.amg.mvc.bean.model.Model;
+import com.amg.mvc.bean.service.Service;
+import com.amg.mvc.bean.view.View;
 import com.amg.mvc.config.SettingsManager;
-import com.amg.mvc.factory.controller.Controller;
-import com.amg.mvc.factory.model.Model;
-import com.amg.mvc.factory.service.Service;
-import com.amg.mvc.factory.view.View;
 import com.amg.mvc.manager.ControllerManager;
 import com.amg.mvc.manager.ModelManager;
 import com.amg.mvc.manager.ServiceManager;

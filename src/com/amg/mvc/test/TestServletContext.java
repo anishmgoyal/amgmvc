@@ -297,12 +297,6 @@ public class TestServletContext implements ServletContext {
 	}
 
 	@Override
-	public String getVirtualServerName() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
 	public void log(String arg0) {
 		// TODO Auto-generated method stub
 		

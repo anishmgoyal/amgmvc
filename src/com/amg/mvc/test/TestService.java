@@ -1,6 +1,6 @@
 package com.amg.mvc.test;
 
-import com.amg.mvc.factory.service.Service;
+import com.amg.mvc.bean.service.Service;
 
 public class TestService extends Service {
 

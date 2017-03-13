@@ -5,8 +5,8 @@ import java.util.LinkedList;
 import java.util.Set;
 
 import com.amg.mvc.annotations.WireAs;
+import com.amg.mvc.bean.view.View;
 import com.amg.mvc.config.SettingsManager;
-import com.amg.mvc.factory.view.View;
 import com.amg.mvc.scan.ItemScanner;
 
 public class ViewManager extends AbstractObjectManager<View> {

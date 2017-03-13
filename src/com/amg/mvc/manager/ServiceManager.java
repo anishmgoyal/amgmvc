@@ -5,8 +5,8 @@ import java.util.LinkedList;
 import java.util.Set;
 
 import com.amg.mvc.annotations.WireAs;
+import com.amg.mvc.bean.service.Service;
 import com.amg.mvc.config.SettingsManager;
-import com.amg.mvc.factory.service.Service;
 import com.amg.mvc.scan.ItemScanner;
 
 //This object stores initiated instances of all services used by the application

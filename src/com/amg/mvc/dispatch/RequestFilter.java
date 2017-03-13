@@ -13,10 +13,10 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.amg.mvc.bean.controller.Controller;
+import com.amg.mvc.bean.view.View;
 import com.amg.mvc.config.SettingsManager;
 import com.amg.mvc.context.ServletContextManager;
-import com.amg.mvc.factory.controller.Controller;
-import com.amg.mvc.factory.view.View;
 
 public class RequestFilter implements Filter {
 

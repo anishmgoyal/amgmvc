@@ -5,9 +5,9 @@ import java.util.LinkedList;
 import java.util.Set;
 
 import com.amg.mvc.annotations.WireAs;
+import com.amg.mvc.bean.model.DataModel;
+import com.amg.mvc.bean.model.Model;
 import com.amg.mvc.config.SettingsManager;
-import com.amg.mvc.factory.model.DataModel;
-import com.amg.mvc.factory.model.Model;
 import com.amg.mvc.scan.ItemScanner;
 
 public class ModelManager extends AbstractObjectManager<Model> {

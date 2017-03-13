@@ -5,8 +5,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.util.LinkedList;
 
-import com.amg.mvc.factory.model.MetaData;
-import com.amg.mvc.factory.model.Model;
+import com.amg.mvc.bean.model.MetaData;
+import com.amg.mvc.bean.model.Model;
 
 public class MySqlQueryBuilder extends QueryBuilder {
 

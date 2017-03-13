@@ -6,9 +6,9 @@ import java.util.Set;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.amg.mvc.factory.view.ContentType;
-import com.amg.mvc.factory.view.View;
-import com.amg.mvc.factory.view.ViewData;
+import com.amg.mvc.bean.view.ContentType;
+import com.amg.mvc.bean.view.View;
+import com.amg.mvc.bean.view.ViewData;
 
 public class TestUnauthView extends View {
 

@@ -7,8 +7,8 @@ import javax.servlet.ServletContext;
 
 import com.amg.mvc.annotations.Secure;
 import com.amg.mvc.annotations.Wire;
-import com.amg.mvc.factory.controller.Controller;
-import com.amg.mvc.factory.service.Service;
+import com.amg.mvc.bean.controller.Controller;
+import com.amg.mvc.bean.service.Service;
 import com.amg.mvc.manager.ControllerManager;
 import com.amg.mvc.manager.ServiceManager;
 import com.amg.mvc.security.SecurityManager;

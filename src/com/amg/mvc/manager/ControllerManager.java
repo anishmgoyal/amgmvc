@@ -5,8 +5,8 @@ import java.util.LinkedList;
 import java.util.Set;
 
 import com.amg.mvc.annotations.WireAs;
+import com.amg.mvc.bean.controller.Controller;
 import com.amg.mvc.config.SettingsManager;
-import com.amg.mvc.factory.controller.Controller;
 import com.amg.mvc.scan.ItemScanner;
 
 //This object stores the class objects for controllers, returning a new instance

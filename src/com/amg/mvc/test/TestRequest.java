@@ -21,7 +21,6 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import javax.servlet.http.HttpUpgradeHandler;
 import javax.servlet.http.Part;
 
 import com.amg.mvc.dispatch.DispatchServlet;
@@ -72,12 +71,6 @@ public class TestRequest implements HttpServletRequest {
 
 	@Override
 	public int getContentLength() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public long getContentLengthLong() {
 		// TODO Auto-generated method stub
 		return 0;
 	}
@@ -276,13 +269,7 @@ public class TestRequest implements HttpServletRequest {
 		// TODO Auto-generated method stub
 		return false;
 	}
-
-	@Override
-	public String changeSessionId() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
+	
 	@Override
 	public String getAuthType() {
 		// TODO Auto-generated method stub
@@ -455,13 +442,6 @@ public class TestRequest implements HttpServletRequest {
 	public void logout() throws ServletException {
 		// TODO Auto-generated method stub
 		
-	}
-
-	@Override
-	public <T extends HttpUpgradeHandler> T upgrade(Class<T> arg0)
-			throws IOException, ServletException {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 }

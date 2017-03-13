@@ -1,7 +1,7 @@
 package com.amg.mvc.context;
 
-import com.amg.mvc.factory.controller.Controller;
-import com.amg.mvc.factory.service.Service;
+import com.amg.mvc.bean.controller.Controller;
+import com.amg.mvc.bean.service.Service;
 
 public abstract class AbstractContextSessionManager {
 	

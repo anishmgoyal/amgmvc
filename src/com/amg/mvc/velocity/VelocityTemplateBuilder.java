@@ -10,10 +10,10 @@ import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.VelocityEngine;
 
+import com.amg.mvc.bean.view.View;
+import com.amg.mvc.bean.view.ViewData;
 import com.amg.mvc.config.SettingsManager;
 import com.amg.mvc.context.ServletContextManager;
-import com.amg.mvc.factory.view.View;
-import com.amg.mvc.factory.view.ViewData;
 
 public class VelocityTemplateBuilder {
 	

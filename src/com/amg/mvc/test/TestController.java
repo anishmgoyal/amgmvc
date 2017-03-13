@@ -5,8 +5,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.amg.mvc.annotations.Secure;
 import com.amg.mvc.annotations.Wire;
-import com.amg.mvc.factory.controller.Controller;
-import com.amg.mvc.factory.view.View;
+import com.amg.mvc.bean.controller.Controller;
+import com.amg.mvc.bean.view.View;
 
 @Wire
 @Secure(roles={"USER_READ", "USER_WRITE"}, redirectAction="/view/testunauthview")

@@ -5,9 +5,9 @@ import java.util.LinkedList;
 
 import javax.servlet.*;
 
+import com.amg.mvc.bean.view.View;
+import com.amg.mvc.bean.view.ViewData;
 import com.amg.mvc.context.ServletContextSessionManager;
-import com.amg.mvc.factory.view.View;
-import com.amg.mvc.factory.view.ViewData;
 import com.amg.mvc.user.UserRoles;
 
 public class TestServlet {
