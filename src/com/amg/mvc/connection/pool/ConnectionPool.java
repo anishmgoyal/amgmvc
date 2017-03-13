@@ -3,7 +3,7 @@ package com.amg.mvc.connection.pool;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import org.apache.to	mcat.jdbc.pool.DataSource;
+import org.apache.tomcat.jdbc.pool.DataSource;
 
 import com.amg.mvc.config.SettingsManager;
 import com.amg.mvc.query.QueryBuilder;	
